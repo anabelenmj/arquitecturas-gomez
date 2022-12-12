@@ -9,7 +9,7 @@ Creado a partir de un diseño UI propio con Adobe xd e Illustrator para las ilus
 * [LinkedIn](www.linkedin.com/in/anabelenmj)
 
 ## 🖥️ Ver ejemplo en vivo 
-- [Web](https://www.gaussmultimedia.eu/thebest/2022/anabelenmadrid/)
+- [https://anabelenmj.github.io/arquitecturas-gomez/](https://anabelenmj.github.io/arquitecturas-gomez/)
 
 ## ⚙️ Instalación 
 No tiene una instalación concreta, simplemente dar click al archivo index.html
