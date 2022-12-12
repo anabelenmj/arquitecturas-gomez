@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARQUITECTURAS GÓMEZ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;1,400&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--CABECERA-->
+    <header class="cabecera">
+            <input type="checkbox" id="check">
+            
+            <!--LOGO-->
+            <a href="#" class="cabecera__logo">
+                <img src="img/logo-arquitecturas-gomez.svg" alt="Logo de la empresa Arquitecturas Gomez" class="cabecera__svg">
+            </a>           
+
+            <!--BURGER-->
+            <label class="cabecera__burger" for="check">
+                <div class="burger__line"></div>
+                <div class="burger__line"></div>
+                <div class="burger__line"></div>
+            </label>
+
+            <!--NAV-->
+            <nav class="cabecera__nav">
+                <ul class="cabecera__menu">
+                    <li class="cabecera__li">
+                        <a href="#" class="cabecera__link">inicio</a>
+                    </li>
+                    <li class="cabecera__li">
+                        <a href="#" class="cabecera__link">estudio</a>
+                    </li>
+                    <li class="cabecera__li">
+                        <a href="#" class="cabecera__link">proyectos</a>
+                    </li>
+                    <li class="cabecera__li">
+                        <a href="#" class="cabecera__link">contacto</a>
+                    </li>
+                    <li class="cabecera__li">
+                        <a href="#" class="cabecera__link">blog</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+    <!--SECTIONS-->
+    <!--------PORTADA-------->
+    <section class="portada">
+        <div class="portada__fondo">
+            <img src="img/fondo-principal.jpg" class="portada__jpg">
+        </div>
+        <div class="portada__contenido">
+            <div class="portada__texto">
+                <h1 class="portada__titulo">Haz su proyecto realidad con las mejores soluciones</h1>
+                <h2 class="portada__subtitulo">arquitecturas Gómez</h2>
+                <a href="#" class="portada__cta">comenzar mi proyecto</a>
+            </div>
+            
+            <div class="portada__imagen">
+                <img src="img/edificio-portada.png" class="portada__png" alt="Edificio realizado por arquitecturas gómez en blancos y turquesas">
+            </div>
+        </div>
+        
+        <div class="portada__onda">
+            <img src="img/onda-azul.svg" class="portada__svg">
+        </div>
+    </section>
+
+    <!--------VALORES-------->
+    <section class="valores">
+        <div class="valores__contenido container">
+            <h2 class="valores__titulo">nuestros valores</h2>
+
+            <div class="valores__descriptivos row align-items-center justify-content-center">
+                <!-----VALORES------->
+                <div class="valores__tipo col-12 col-md-6 col-xl-4 ">
+                    <img src="img/icon-a-su-medida.svg" class="valores__icon">
+                    <h3 class="valores__titulo-icon">A su medida</h3>
+                    <p class="valores__p">Realizamos los planes que desees a su medida</p>
+                </div>
+
+                <!-----CALIDAD------->
+                <div class="valores__tipo col-12 col-md-6 col-xl-4">
+                    <img src="img/icon-calidad.svg" class="valores__icon">
+                    <h3 class="valores__titulo-icon">Calidad</h3>
+                    <p class="valores__p">Te ofrecemos la mejor calidad de nuestro servicio</p>
+                </div>
+
+                <!-----EQUIPO------->
+                <div class="valores__tipo col-12 col-md-6 col-xl-4">
+                    <img src="img/icon-equipo.svg" class="valores__icon">
+                    <h3 class="valores__titulo-icon">Equipo</h3>
+                    <p class="valores__p">Trabajamos en equipo para obtener mejores resultados</p>
+                </div>
+            </div>
+        </div>
+        <div class="valores__onda">
+            <img src="img/onda-blanca.svg" class="valores__svg">
+        </div>
+        
+    </section>
+
+        <!--------PROYECTOS-------->
+        <section class="proyectos">
+            <div class="proyectos__contenido container">
+                <h2 class="proyectos__titulo">nuestros proyectos</h2>
+
+                <div class="proyectos__descriptivos row">
+                    <!------------PROYECTO 1--------------->
+                        <a href="#" class="proyectos__col d-flex col-12 col-md-6 flex-md-column flex-xl-row">
+                            <div class="proyectos__tarjeta row flex-md-column flex-xl-row g-0">
+                                <!------IMAGEN----------->
+                                <div class="proyectos__img col-6 col-md-12 col-xl-6">
+                                    <img src="img/proyecto-plan-renfe.jpg" alt="Proyecto Plan Renfe realizado por Arquitecturas Gómez" class="proyectos__jpg">
+                                </div>
+                                <!------TEXTOS----------->
+                                <div class="proyectos__textos col-6 col-md-12 col-xl-6">
+                                    <h3 class="proyectos__titulos">plan renfe</h3>
+                                    <p class="proyectos__descripcion d-none d-md-flex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, eum.</p>
+                                    <p class="proyectos__fecha">13/02/2022</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    <!------------PROYECTO 2--------------->
+                        <a href="#" class="proyectos__col d-flex col-12 col-md-6 flex-md-column flex-xl-row">
+                            <div class="proyectos__tarjeta row flex-md-column flex-xl-row g-0">
+                                <!------IMAGEN----------->
+                                <div class="proyectos__img col-6 col-md-12 col-xl-6">
+                                    <img src="img/proyecto-canada-de-los-cardos.jpg" alt="Proyecto de la Cañana de los Cardos realizado por Arquitecturas Gómez" class="proyectos__jpg">
+                                </div>
+                                <!------TEXTOS----------->
+                                <div class="proyectos__textos col-6 col-md-12 col-xl-6">
+                                    <h3 class="proyectos__titulos">cañada de los cardos</h3>
+                                    <p class="proyectos__descripcion d-none d-md-flex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, eum.</p>
+                                    <p class="proyectos__fecha">14/02/2022</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    <!------------PROYECTO 3--------------->
+                        <a href="#" class="proyectos__col d-flex col-12 col-md-6 flex-md-column flex-xl-row">
+                            <div class="proyectos__tarjeta row flex-md-column flex-xl-row g-0">
+                                <!------IMAGEN----------->
+                                <div class="proyectos__img col-6 col-md-12 col-xl-6">
+                                    <img src="img/proyecto-los-almendrales.jpg" alt="Proyecto de los Almendrales realizado por Arquitecturas Gómez" class="proyectos__jpg">
+                                </div>
+                                <!------TEXTOS----------->
+                                <div class="proyectos__textos col-6 col-md-12 col-xl-6">
+                                    <h3 class="proyectos__titulos">los almendrales</h3>
+                                    <p class="proyectos__descripcion d-none d-md-flex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, eum.</p>
+                                    <p class="proyectos__fecha">15/02/2022</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    <!------------PROYECTO 4--------------->
+                        <a href="#" class="proyectos__col d-flex col-12 col-md-6 flex-md-column flex-xl-row">
+                            <div class="proyectos__tarjeta row flex-md-column flex-xl-row g-0">
+                                <!------IMAGEN----------->
+                                <div class="proyectos__img col-6 col-md-12 col-xl-6">
+                                    <img src="img/proyecto-baviera-golf.jpg" alt="Proyecto Baviera Golf realizado por Arquitecturas Gómez" class="proyectos__jpg">
+                                </div>
+                                <!------TEXTOS----------->
+                                <div class="proyectos__textos col-6 col-md-12 col-xl-6">
+                                    <h3 class="proyectos__titulos">baviera golf</h3>
+                                    <p class="proyectos__descripcion d-none d-md-flex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, eum.</p>
+                                    <p class="proyectos__fecha">16/02/2022</p>
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+
+            <div class="proyectos__onda">
+                <img src="img/onda-azul.svg" class="proyectos__svg">
+            </div>
+        </section>
+
+    <!--------EQUIPO-------->
+    <section class="equipo">
+        <div class="equipo__contenido container">
+            <h2 class="equipo__titulo">nuestro equipo</h2>
+
+            <div class="equipo__descriptivos row justify-content-center">
+                <!-----------EQUIPO 1----------------->
+                <div class="equipo__tarjetas col-12 col-md-6 col-xl-4">
+                    <div class="equipo__bg row  flex-column g-0">
+                        <div class="equipo__img">
+                            <div class="equipo__jpg">
+                                <img src="img/estefania-gomez.jpg">
+                            </div>
+                        </div>
+                        <!---------TEXTOS------->
+                        <div class="equipo__textos">
+                            <h3 class="equipo__nombre">Estefanía gómez</h3>
+                            <h4 class="equipo__cargo">Directora de proyectos</h4>
+                            <p class="equipo__experiencia">Fundadora del estudio, arquitecta superior por la Universidad de Málaga. Ejerce la función de dirección general de la empresa, representante Institucional y Legal, y desarrollo de nuevos mercados y clientes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-----------EQUIPO 2----------------->
+                <div class="equipo__tarjetas col-12 col-md-6 col-xl-4">
+                    <div class="equipo__bg row  flex-column g-0">
+                        <div class="equipo__img">
+                            <div class="equipo__jpg">
+                                <img src="img/carolina-heredia.jpg">
+                            </div>
+                        </div>
+                        <!---------TEXTOS------->
+                        <div class="equipo__textos">
+                            <h3 class="equipo__nombre">Carolina heredia</h3>
+                            <h4 class="equipo__cargo">Diseñadora de interiores</h4>
+                            <p class="equipo__experiencia">Arquitecta por la Universidad de Sevilla con más de 10 años de experiencia participando en el diseño de más de cien espacios. Trabajando hasta el más minucioso detalle de cada proyecto</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-----------EQUIPO 3----------------->
+                <div class="equipo__tarjetas col-12 col-md-6 col-xl-4">
+                    <div class="equipo__bg row flex-column g-0">
+                        <div class="equipo__img">
+                            <div class="equipo__jpg">
+                                <img src="img/esteban-recio.jpg">
+                            </div>
+                        </div>
+                        <!---------TEXTOS------->
+                        <div class="equipo__textos">
+                            <h3 class="equipo__nombre">Esteban recio</h3>
+                            <h4 class="equipo__cargo">Arquitecto</h4>
+                            <p class="equipo__experiencia">Arquitecto por la Universidad de Granada. Inicia su andadura colaborando con diversos estudios. Su indudable interés por la evolución en la arquitectura le ha llevado a especializarse en nuevos métodos de fabricación y diseño</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__contenido container">
+            <div class="footer__items row justify-content-center align-items-center">
+                    <!-----------LOGO------------->
+                <div class="footer__logo col-12 col-md-4">
+                    <img src="img/logo-arquitecturas-gomez-blanco.svg" alt="Logo Arquitecturas Gómez" class="footer__svg">
+                </div>
+
+                <hr class="footer__div">
+
+                <!-----------QUIENES SOMOS------------->
+                <div class="footer__nosotros col-12 col-md-4">
+                <h3 class="footer__titulo">¿Quiénes somos?</h3>
+                <p class="footer__descripcion">Arquitecturas Gómez es una empresa fundada en 2005 en el corazón de Málaga especializada en proyectos residenciales, edificios, urbanismo y diseño de interior. Compuesto por profesionales de primera para obtener los mejores resultados para su proyecto 
+                </p>
+                </div>
+
+                <hr class="footer__div">
+
+                <!-----------CONTACTO------------->
+                <div class="footer__contacto col-12 col-md-4">
+                    <h3 class="footer__titulo">Contacto</h3>
+                    <ul class="footer__ul">
+                        <li class="footer__li">
+                            <a href="#" class="footer__link">Instagram</a>
+                        </li>
+                        <li class="footer__li">
+                            <a href="#" class="footer__link">Facebook</a>
+                        </li>
+                        <li class="footer__li">
+                            <a href="#" class="footer__link">Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__col col-12 col-md-12">
+                    <h4 class="footer__copy">© 2022 por Ana Belén Madrid</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
